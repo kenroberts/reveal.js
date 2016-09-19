@@ -35,9 +35,10 @@
 				<section>
 					<h2>Outline</h2>
 						<ul>
-							<li>What is Git</li>
+							<li><em>What is Git</em></li>
 							<li>What does a git workflow look like?</li>
 							<li>What is Github?</li>
+							<li>Discussion on how useful this might be</li>
 						</ul>
 				</section>
 				
@@ -50,9 +51,9 @@
 							</small></ul>
 						</li>
 						<li class="fragment">Git is distributed.
-								<ul><small><li>there are multiple copies of the code in different places</li>
-								<li>no one copy is the "official" copy (except by convention)</li>
-								</small></ul>
+							<ul><small><li>there are multiple copies of the code in different places</li>
+							<li>no one copy is the "official" copy (except by convention)</li>
+							</small></ul>
 						</li>
 						<li class="fragment">Git is a command-line tool that now has a GUI.</li>
 					</ul>
@@ -73,7 +74,66 @@
 				</section>
 				
 				<section>
-					<h2>What is Github</h2>
+					<h2>New workflow (ideally)</h2>
+					<ul>
+						<li class="fragment">Ken: (looks in Github for set of scripts)</li>
+						<li class="fragment">Ken: (forks repository)</li>
+						<li class="fragment">Ken: (gets set of scripts that work from the beginning)</li>
+						<li class="fragment">Ken: (adds feature to script, uploads with a couple clicks)</li>
+						<li class="fragment">Khoi: (automatically gets Ken's feature)</li>
+						<li class="fragment">Ken: (also automatically gets Khoi's, Charlie's and anyone elses' features)</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Lingo</h2>
+					<ul>
+						<li class="fragment">Repo: repository, like a project</li>
+						<li class="fragment">Branch: copy of a repository, a repo can have more than one branch</li>
+						<li class="fragment">Fork: to create a new branch</li>
+						<li class="fragment">Commit: a package of changes to a repository
+							<ul><small><li>ideally, encompasses one feature</li>
+							<li>works, not half-complete, broken, or changes other behavior unexpectedly</li>
+							</small></ul></li>
+						<li class="fragment">Pull: to download new changes from a remote branch</li>
+						<li class="fragment">Push: to upload new changes to a remote branch</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Rescan for changes</h2>
+					<img src="./resources/lab_meeting_2016_09_20/git_screenshot_1.png" style="width: 80%; height=80%"></img>
+				</section>
+				
+				<section>
+					<h2>Stage changes</h2>
+					<p>Choose files you want to commit in "staging" area</p>
+					<img src="./resources/lab_meeting_2016_09_20/git_screenshot_2.png" style="width: 80%; height=80%"></img>
+				</section>
+				
+				<section>
+					<h2>Commit</h2>
+					<p>label with informative comment</p>
+					<img src="./resources/lab_meeting_2016_09_20/git_screenshot_3.png" style="width: 80%; height=80%"></img>
+				</section>
+				
+				<section>
+					<h2>Push changes</h2>
+					<p>Push to a remote repository</p>
+					<img src="./resources/lab_meeting_2016_09_20/git_screenshot_4.png" style="width: 80%; height=80%"></img>
+				</section>
+				
+				
+				<section>
+					<h2>Potential benefits</h2>
+					<ul>
+						<li class="fragment">In a shared project you will get changes made by others</li>
+						<li class="fragment">There is a complete history of every commit to the project</li>
+						<li class="fragment">You can see the state of the code at any point in time</li>
+						<li class="fragment">If a bug is found, you can trace it back to it's origin</li>
+						<li class="fragment">Allows each person to have a "personal" view of code, as well as shared view</li>
+						<li class="fragment">Plus... all benefits of GitHub, GitLab, BitBucket</li>
+					</ul>
 				</section>
 				
 			</div>
